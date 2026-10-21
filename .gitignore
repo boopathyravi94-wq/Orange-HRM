@@ -1,0 +1,17 @@
+cat >> .gitignore <<'EOF'
+
+# Environment secrets
+.env
+.env.*
+
+# Git backup
+.git_backup
+
+# Dependencies
+node_modules/
+
+# Test reports
+test-results/
+playwright-report/
+allure-results/
+EOF
